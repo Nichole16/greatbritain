@@ -1,0 +1,138 @@
+/*
+Nichole Anderson
+06/01/15
+Anderson-Final
+
+File: vidstyles.css
+
+*/
+
+/* Styles */
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../images/jackflag1.jpg");
+	background-size: 100% 100%;
+	clear: both;
+}
+
+body #canvas{
+	background-image: url("../images/londontexture.jpg");		
+}
+
+#canvas {
+	text-align:center;
+	padding: 5px;
+}
+
+#wrapper {
+	max-width: 1140px;
+	max-height:800px;
+  	margin: 0px auto;
+  	padding: 0px;
+}
+
+#header {
+	text-align:center;
+	padding: 5px;
+	margin: 0px;
+	background-image: url("../images/big-ben1.jpg");
+	background-size:100%;
+    background-repeat: no-repeat;
+    height:520px;
+}
+
+#nav {
+     list-style: none;
+    width: 100%;
+    text-align: center;
+    /*background-color: #000000;*/
+    background-size: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(182,0,0);
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#nav li {
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+	padding-left:40px; 
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+#nav li a {
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#nav ul li a {
+	padding: 10px 40px 10px 10px;
+}
+
+#nav ul li a:hover {
+	color: #D4CA90;
+}
+
+#logo {
+	height:110px;
+	background: no-repeat;
+	padding-top: 8px;
+	padding-bottom:8px;
+	margin-left:40px;	
+}
+
+#content {
+	margin: 0 auto;
+	padding: 5px;
+    background-color: rgba(191, 145, 81, 0.7);
+    width:575px;
+    text-align: center;	
+}
+#title {
+	background-color: black;
+	padding: 20px;
+	margin-top:0px;
+	color: white;
+	font-weight: lighter;
+}
+
+#footer {
+	bottom: 0;
+	width: 100%;
+	clear:both;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: rgb(182,0,0);
+	
+}
+	
+
+p {
+	font-size: 18px;
+	color: black;
+	font-family:"Times New Roman", Times, serif;
+	line-height: 125%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#footer p {
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+	padding: .5em .25em .5em 1em;
+	color: white;
+	text-align: center;
+	-moz-border-radius: 2px 0 0 0;
+	border-radius: 2px 0 0 0;
+	margin: 0;
+}
