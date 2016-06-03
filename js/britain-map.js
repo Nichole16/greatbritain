@@ -51,7 +51,7 @@ $(document).ready(function() {
         longitude : -1.708705,
         title: "Shakespeare's Birthplace",
         html: {
-          content: "<h2>Shakespeare's Birthplace</h2><p>William Shakespeare was born in Stratford and lived here until he was old enough to marry and spend the first five years of family life here with his new wife, Anne Hathaway.</p><img width='300' height='150'src='images/ShakespeareBirthplace.jpg'></p>",
+          content: "<h2>Shakespeare's Birthplace</h2><p>William Shakespeare was born in Stratford and lived here until he was old enough to marry and spend the first five years of family life here with his new wife, Anne Hathaway.</p><img width='300' height='150'src='images/ShakespeareBirthplace.JPG'></p>",
           popup: false
         }
       }, 
